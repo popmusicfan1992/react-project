@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/react-project/shopping-cart/sw.js', { scope: '/react-project/shopping-cart/' })})}
